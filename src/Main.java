@@ -8,18 +8,17 @@ public class Main {
             isPresent = (int) ( Math.random() * 10 ) % 3;
             int presentFulltime = 1;
             int presentParttime = 2;
-
-            if( isPresent == presentFulltime ){
-                empDailywage  =  WAGE_PER_HOUR * FULL_DAY_HOUR;
+            switch ( isPresent ){
+                case 1:
+                    empDailywage  =  WAGE_PER_HOUR * FULL_DAY_HOUR;
+                    break;
+                case 2:
+                    empDailywage  =  WAGE_PER_HOUR * PART_TIME_HOUR;
+                    break;
+                default:
+                    System.out.println("Employee is Absent"); 
             }
-            else if ( isPresent == presentParttime ){
-            empDailywage  =  WAGE_PER_HOUR * PART_TIME_HOUR;
-            }
 
-            else {
-                System.out.println("Employee is Absent");
-
-            }
         System.out.println("Daily Employee Wage ==> "+ empDailywage);
 
     }
