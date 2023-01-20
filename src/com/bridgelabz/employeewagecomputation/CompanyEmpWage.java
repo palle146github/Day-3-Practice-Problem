@@ -14,11 +14,11 @@ public class CompanyEmpWage {
         this.numOfWorkingHours = numOfWorkingHours;
         this.maxWorkingDays = maxWorkingDays;
     }
-
+    // Storing the total wage
     public void setTotalEmpWage(int totalEmpWage) {
         this.totalEmpWage = totalEmpWage;
     }
-    @Override
+    @Override// Overriding toStringmethod
     public String toString(){
         return "Total wage of " + company + " is " + totalEmpWage;
     }

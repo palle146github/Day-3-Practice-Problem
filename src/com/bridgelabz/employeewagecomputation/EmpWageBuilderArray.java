@@ -1,18 +1,21 @@
 package com.bridgelabz.employeewagecomputation;
 
+import java.util.ArrayList;
+// implementation of interface
+
 public class EmpWageBuilderArray implements ICompanyEmpWage{
     //Constants
     public static final int IS_PART_TIME = 1;
     public static final int IS_FULL_TIME = 2;
     // Array Declaration
-    CompanyEmpWage[] companyEmpWageArray = new CompanyEmpWage[10];
-    int noOfCompany = 0;
-
+    ArrayList<CompanyEmpWage> companyEmpWageArray=new ArrayList<CompanyEmpWage>();//Creating arraylist
+    @Override // Overriding the addCompnay method in the interface class
     public void addCompany(String company, int empRatePerHour, int numOfWorkingHours, int maxWorkingDays ){
-        companyEmpWageArray[noOfCompany] = new CompanyEmpWage(company,empRatePerHour,numOfWorkingHours,maxWorkingDays);
-        noOfCompany++;
+        CompanyEmpWage companyEmpWage =new CompanyEmpWage(company,empRatePerHour,numOfWorkingHours,maxWorkingDays);
+        companyEmpWageArray.add(companyEmpWage);
     }
     // Employee Wage computation
+    @Override// Overriding the computeEmpWage method in the interface class
     public int computeEmpWage(CompanyEmpWage companyEmpWage){
         //Variables
         int empHrs = 0;
@@ -39,10 +42,11 @@ public class EmpWageBuilderArray implements ICompanyEmpWage{
         return companyEmpWage.totalEmpWage;
     }
     // Compute employee wage for multiple companies
+    @Override// Overriding the computeEmpWage method in the interface class
     public void computeEmpWage(){
-        for( int i = 0; i < noOfCompany; i++){
-            companyEmpWageArray[i].setTotalEmpWage((computeEmpWage(companyEmpWageArray[i])));
-            System.out.println(companyEmpWageArray[i]);
+        for( int i = 0; i < companyEmpWageArray.size(); i++){
+            companyEmpWageArray.get(i).setTotalEmpWage((computeEmpWage(companyEmpWageArray.get(i))));
+            System.out.println(companyEmpWageArray.get(i));
         }
     }
     public static void main(String[] args) {
