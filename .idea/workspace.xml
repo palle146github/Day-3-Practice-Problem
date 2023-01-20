@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1bb6ea5-a328-4e40-a076-7ae2c9431b65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3PracticeProblemsEmployeeWageComputation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderTotalWageSave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderUC1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmployeeDailyWage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmployeeWageClassMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmployeeWageFullPartTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmployeeWageMaxDaysInMonth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmployeeWageMaxHoursMaxDaysMonth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmployeeWageUsingCaseStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmployeeWageforMultipleCompanies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/CompanyEmpWage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderTotalWageSave.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +41,35 @@
     "last_opened_file_path": "D:/Day3PracticeProblemsEmployeeWageComputation"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EmpWageBuilderTotalWageSave">
+  <component name="RunManager" selected="Application.EmpWageBuilderArray">
+    <configuration name="EmpWageBuilderArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.employeewagecomputation.EmpWageBuilderArray" />
+      <module name="Day3PracticeProblemsEmployeeWageComputation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.employeewagecomputation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmpWageBuilderTotalWageSave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.employeewagecomputation.EmpWageBuilderTotalWageSave" />
+      <module name="Day3PracticeProblemsEmployeeWageComputation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.employeewagecomputation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpWageBuilderUC1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.employeewagecomputation.EmpWageBuilderUC1" />
       <module name="Day3PracticeProblemsEmployeeWageComputation" />
       <extension name="coverage">
         <pattern>
@@ -94,6 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmpWageBuilderArray" />
+        <item itemvalue="Application.EmpWageBuilderUC1" />
         <item itemvalue="Application.EmpWageBuilderTotalWageSave" />
         <item itemvalue="Application.EmployeeWageforMultipleCompanies" />
         <item itemvalue="Application.EmployeeWageMaxDaysInMonth" />
