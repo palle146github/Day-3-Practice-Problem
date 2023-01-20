@@ -3,7 +3,7 @@ package com.bridgelabz.employeewagecomputation;
 import java.util.ArrayList;
 // implementation of interface
 
-public class EmpWageBuilderArray implements ICompanyEmpWage{
+public class EmpWageBuilderArrayList implements ICompanyEmpWage{
     //Constants
     public static final int IS_PART_TIME = 1;
     public static final int IS_FULL_TIME = 2;
@@ -35,7 +35,7 @@ public class EmpWageBuilderArray implements ICompanyEmpWage{
             }
             totalWorkingDays++;
             totalWorkHours += empHrs;
-            System.out.println("Day# " + totalWorkingDays + " Working Hours " + empHrs);
+            System.out.println("Day# " + totalWorkingDays + " Working Hours " + empHrs + " Daily wage "+ empHrs * companyEmpWage.empRatePerHour);
         }
         companyEmpWage.totalEmpWage = totalWorkHours * companyEmpWage.empRatePerHour;
         System.out.println("Total Working Hours " + totalWorkHours);
@@ -50,11 +50,11 @@ public class EmpWageBuilderArray implements ICompanyEmpWage{
         }
     }
     public static void main(String[] args) {
-        EmpWageBuilderArray empWageBuilderArray = new EmpWageBuilderArray();// Object declaration
+        EmpWageBuilderArrayList empWageBuilderArray = new EmpWageBuilderArrayList();// Object declaration
         empWageBuilderArray.addCompany(" Wipro", 20, 100, 20);
         empWageBuilderArray.addCompany("Infosys", 15, 120, 25);
         empWageBuilderArray.addCompany(" TCS", 22, 110, 20);
-        empWageBuilderArray.addCompany("Cognijant", 25, 90, 25);
+        empWageBuilderArray.addCompany("Cognizant", 25, 90, 25);
         empWageBuilderArray.addCompany(" Capgemini", 18, 120, 20);
         empWageBuilderArray.computeEmpWage();
     }

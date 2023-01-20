@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b1bb6ea5-a328-4e40-a076-7ae2c9431b65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/CompanyEmpWage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/CompanyEmpWage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/ICompanyEmpWage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/ICompanyEmpWage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +39,9 @@
     "last_opened_file_path": "D:/Day3PracticeProblemsEmployeeWageComputation"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EmpWageBuilderArray">
-    <configuration name="EmpWageBuilderArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.employeewagecomputation.EmpWageBuilderArray" />
+  <component name="RunManager" selected="Application.EmpWageBuilderArrayList">
+    <configuration name="EmpWageBuilderArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.employeewagecomputation.EmpWageBuilderArrayList" />
       <module name="Day3PracticeProblemsEmployeeWageComputation" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmpWageBuilderArray" />
+        <item itemvalue="Application.EmpWageBuilderArrayList" />
         <item itemvalue="Application.EmpWageBuilderUC1" />
         <item itemvalue="Application.EmpWageBuilderTotalWageSave" />
         <item itemvalue="Application.EmployeeWageforMultipleCompanies" />
@@ -127,5 +125,16 @@
       <updated>1674204281637</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
