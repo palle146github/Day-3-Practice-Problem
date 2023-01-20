@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1bb6ea5-a328-4e40-a076-7ae2c9431b65" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3PracticeProblemsEmployeeWageComputation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderTotalWageSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderUC1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmployeeDailyWage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmployeeWageClassMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmployeeWageFullPartTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmployeeWageMaxDaysInMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmployeeWageMaxHoursMaxDaysMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmployeeWageUsingCaseStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmployeeWageforMultipleCompanies.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KaENKREN5kB5dHmQMA5XNwn2wW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Day3PracticeProblemsEmployeeWageComputation"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.EmpWageBuilderTotalWageSave">
+    <configuration name="EmpWageBuilderTotalWageSave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.employeewagecomputation.EmpWageBuilderTotalWageSave" />
+      <module name="Day3PracticeProblemsEmployeeWageComputation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.employeewagecomputation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeWageMaxDaysInMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.employeewagecomputation.EmployeeWageMaxDaysInMonth" />
+      <module name="Day3PracticeProblemsEmployeeWageComputation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.employeewagecomputation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeWageforMultipleCompanies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.employeewagecomputation.EmployeeWageforMultipleCompanies" />
+      <module name="Day3PracticeProblemsEmployeeWageComputation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.employeewagecomputation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EmpWageBuilderTotalWageSave" />
+        <item itemvalue="Application.EmployeeWageforMultipleCompanies" />
+        <item itemvalue="Application.EmployeeWageMaxDaysInMonth" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1bb6ea5-a328-4e40-a076-7ae2c9431b65" name="Changes" comment="" />
+      <created>1674204281637</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674204281637</updated>
+    </task>
+    <servers />
+  </component>
+</project>
