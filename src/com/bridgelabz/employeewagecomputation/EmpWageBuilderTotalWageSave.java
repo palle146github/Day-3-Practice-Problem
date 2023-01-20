@@ -3,19 +3,20 @@ package com.bridgelabz.employeewagecomputation;
 public class EmpWageBuilderTotalWageSave {
     public static final int IS_PART_TIME = 1;
     public static final int IS_FULL_TIME = 2;
+    //Instance Variable declaration
     private final String company;
     private final int empRatePerHour;
     private final int numOfWorkingHours;
     private final int maxWorkingDays;
     private int totalEmpWage;
-
+    // Constructor to initialize instance variable
     public EmpWageBuilderTotalWageSave(String company, int empRatePerHour, int numOfWorkingHours, int maxWorkingDays) {
         this.company = company;
         this.empRatePerHour = empRatePerHour;
         this.numOfWorkingHours = numOfWorkingHours;
         this.maxWorkingDays = maxWorkingDays;
     }
-
+    // Employee wage computaion
     void computeEmployeeWage() {
         //Variables
         int empHrs = 0;
@@ -46,7 +47,7 @@ public class EmpWageBuilderTotalWageSave {
     }
 
     public static void main(String[] args) {
-        EmpWageBuilderTotalWageSave wipro = new EmpWageBuilderTotalWageSave(" Wipro", 20, 100, 20);
+        EmpWageBuilderTotalWageSave wipro = new EmpWageBuilderTotalWageSave(" Wipro", 20, 100, 20);// passing parameters to a particular objecct
         EmpWageBuilderTotalWageSave infosys = new EmpWageBuilderTotalWageSave("Infosys", 15, 120, 25);
         wipro.computeEmployeeWage();
         infosys.computeEmployeeWage();
