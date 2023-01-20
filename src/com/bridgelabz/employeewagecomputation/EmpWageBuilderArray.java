@@ -1,6 +1,6 @@
 package com.bridgelabz.employeewagecomputation;
 
-public class EmpWageBuilderArray {
+public class EmpWageBuilderArray implements ICompanyEmpWage{
     //Constants
     public static final int IS_PART_TIME = 1;
     public static final int IS_FULL_TIME = 2;
