@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b1bb6ea5-a328-4e40-a076-7ae2c9431b65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderGettingTotalWage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +36,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "D:/Day3PracticeProblemsEmployeeWageComputation"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EmpWageBuilderArrayList">
-    <configuration name="EmpWageBuilderArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.employeewagecomputation.EmpWageBuilderArrayList" />
+  <component name="RunManager" selected="Application.EmpWageBuilderGettingTotalWage">
+    <configuration name="EmpWageBuilderGettingTotalWage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.employeewagecomputation.EmpWageBuilderGettingTotalWage" />
       <module name="Day3PracticeProblemsEmployeeWageComputation" />
       <extension name="coverage">
         <pattern>
@@ -107,7 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmpWageBuilderArrayList" />
+        <item itemvalue="Application.EmpWageBuilderGettingTotalWage" />
         <item itemvalue="Application.EmpWageBuilderUC1" />
         <item itemvalue="Application.EmpWageBuilderTotalWageSave" />
         <item itemvalue="Application.EmployeeWageforMultipleCompanies" />
@@ -136,5 +137,25 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderGettingTotalWage.java</url>
+          <line>63</line>
+          <properties class="com.bridgelabz.employeewagecomputation.EmpWageBuilderGettingTotalWage" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderGettingTotalWage.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
