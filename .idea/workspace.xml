@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b1bb6ea5-a328-4e40-a076-7ae2c9431b65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderGettingTotalWage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/CompanyEmpWage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/CompanyEmpWage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderGettingTotalWage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderGettingTotalWage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/ICompanyEmpWage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/ICompanyEmpWage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +27,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2KaENKREN5kB5dHmQMA5XNwn2wW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -137,25 +142,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderGettingTotalWage.java</url>
-          <line>63</line>
-          <properties class="com.bridgelabz.employeewagecomputation.EmpWageBuilderGettingTotalWage" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/bridgelabz/employeewagecomputation/EmpWageBuilderGettingTotalWage.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

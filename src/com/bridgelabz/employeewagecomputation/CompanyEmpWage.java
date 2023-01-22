@@ -2,24 +2,25 @@ package com.bridgelabz.employeewagecomputation;
 
 public class CompanyEmpWage {
     // Variables
-    public final String company;
-    public final int empRatePerHour;
-    public final int numOfWorkingHours;
-    public final int maxWorkingDays;
-    public int totalEmpWage;
-    // Constructor
-    public CompanyEmpWage(String company, int empRatePerHour, int numOfWorkingHours, int maxWorkingDays) {
+    String company;
+    int maxWorkingDay, maxWorkingHour, wagePerHour, ;
+
+    double totalSalary;
+
+    public CompanyEmpWage(String company, int maxWorkingDay, int maxWorkingHour, int wagePerHour) {
         this.company = company;
-        this.empRatePerHour = empRatePerHour;
-        this.numOfWorkingHours = numOfWorkingHours;
-        this.maxWorkingDays = maxWorkingDays;
+        this.maxWorkingDay = maxWorkingDay;
+        this.maxWorkingHour = maxWorkingHour;
+        this.wagePerHour = wagePerHour;
     }
-    // Storing the total wage
-    public void setTotalEmpWage(int totalEmpWage) {
-        this.totalEmpWage = totalEmpWage;
-    }
-    @Override// Overriding toStringmethod
-    public String toString(){
-        return "Total wage of " + company + " is " + totalEmpWage;
+
+    @Override
+    public String toString() {
+        return "Employee Company name : " + company
+                + "\nEmployee monthly wage : $"
+                + totalSalary + " USD"
+                + "\nEmployee Total working hour : "
+                + totalWorkingHour + " Hours\n"
+                + "------------------------------------";
     }
 }

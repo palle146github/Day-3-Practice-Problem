@@ -3,32 +3,51 @@ package com.bridgelabz.employeewagecomputation;
 import java.util.*;
 // implementation of interface
 
-public class EmpWageBuilderGettingTotalWage implements ICompanyEmpWage{
-    //Constants
-    public static final int IS_PART_TIME = 1;
-    public static final int IS_FULL_TIME = 2;
-    // Array Declaration
-    private LinkedList<CompanyEmpWage> companyEmpWageLinkedList = new LinkedList<CompanyEmpWage>();//Creating LinkedList
-    private Map<String, CompanyEmpWage> companyEmpWageMap = new HashMap<String, CompanyEmpWage>();
-       //Creating Map
+public class EmpWageBuilderGettingTotalWage implements ICompanyEmpWage {
 
-    public EmpWageBuilderGettingTotalWage(){
-        companyEmpWageLinkedList = new LinkedList<CompanyEmpWage>();
-        companyEmpWageMap = new HashMap<String, CompanyEmpWage>();    }
-    @Override // Overriding the addCompnay method in the interface class
-    public void addCompany(String company, int empRatePerHour, int numOfWorkingHours, int maxWorkingDays ){
-        CompanyEmpWage companyEmpWage =new CompanyEmpWage(company,empRatePerHour,numOfWorkingHours,maxWorkingDays);
-        companyEmpWageLinkedList.add(companyEmpWage);
-        companyEmpWageMap.put(company, companyEmpWage);
+    final int IS_PART_TIME = 1;
+    final int IS_FULL_TIME = 2;
+    List<CompanyEmpWage> companies;
+    public EmpWageBuilderGettingTotalWage() {
+        this.companies = new ArrayList<CompanyEmpWage>();
     }
-    // Employee Wage computation
-    @Override// Overriding the computeEmpWage method in the interface class
-    public int computeEmpWage(CompanyEmpWage companyEmpWage){
+
+    @Override
+    public void addCompany(String companyName, int maxWorkingDay, int maxWorkingHour, int wagePerHour) {
+        CompanyEmpWage company = new CompanyEmpWage(companyName, maxWorkingDay, maxWorkingHour,wagePerHour);
+        companies.add(company);
+    }
+
+    @Override
+    public void computeEmpWage() {
+        for (int i = 0; i < companies.size(); i++) {
+            computeEmpWage(companies.get(i));
+//			System.out.println(companies.get(i));
+        }
+        System.out.println(
+                "Total companies : " + totalCompanies());
+    }
+
+    @Override
+    public int totalCompanies() {
+        return companies.size();
+    }
+
+    @Override
+    public CompanyEmpWage getTotalEmpWage(String companyName) {
+        for (CompanyEmpWage companyEmpWage : companies) {
+            if (companyEmpWage.company.toLowerCase().equals(companyName.toLowerCase()))
+                return companyEmpWage;
+        }
+        return null;
+    }
+
+    public double computeEmpWage(CompanyEmpWage company) {
         //Variables
-        int empHrs = 0;
+        int empHrs;
         int totalWorkHours = 0;
         int totalWorkingDays = 0;
-        while (totalWorkHours <= companyEmpWage.numOfWorkingHours && totalWorkingDays < companyEmpWage.maxWorkingDays) {
+        while (totalWorkHours <= company.maxWorkingHour && totalWorkingDays < company.maxWorkingDay) {
             int empCheck = (int) (Math.floor(Math.random() * 10) % 3);
             switch (empCheck) {
                 case IS_PART_TIME:
@@ -42,33 +61,27 @@ public class EmpWageBuilderGettingTotalWage implements ICompanyEmpWage{
             }
             totalWorkingDays++;
             totalWorkHours += empHrs;
-            System.out.println("Day# " + totalWorkingDays + " Working Hours " + empHrs + " Daily wage "+ empHrs * companyEmpWage.empRatePerHour);
+            System.out.println("Day# " + totalWorkingDays + " Working Hours " + empHrs + " Daily wage " + empHrs * company.wagePerHour);
         }
-        companyEmpWage.totalEmpWage = totalWorkHours * companyEmpWage.empRatePerHour;
+        company.totalSalary = totalWorkHours * company.wagePerHour;
+        company.totalWorkingHour = totalWorkHours;
         System.out.println("Total Working Hours " + totalWorkHours);
-        return companyEmpWage.totalEmpWage;
-    }
-    // Compute employee wage for multiple companies
-    @Override// Overriding the computeEmpWage method in the interface class
-    public void computeEmpWage(){
-        for( int i = 0; i < companyEmpWageLinkedList.size(); i++){
-            companyEmpWageLinkedList.get(i).setTotalEmpWage((computeEmpWage(companyEmpWageLinkedList.get(i))));
-            System.out.println(companyEmpWageLinkedList.get(i));
-        }
+        System.out.println("Total wage " + company.totalSalary);
+        return company.totalSalary;
     }
 
-    public int getTotalWage(String company){
-        return companyEmpWageMap.get(company).totalEmpWage;
-    }
 
     public static void main(String[] args) {
-        EmpWageBuilderGettingTotalWage empWageBuilderArray = new EmpWageBuilderGettingTotalWage();// Object declaration
-        empWageBuilderArray.addCompany(" Wipro", 20, 100, 20);
-        empWageBuilderArray.addCompany("Infosys", 15, 120, 25);
-        empWageBuilderArray.addCompany(" TCS", 22, 110, 20);
-        empWageBuilderArray.addCompany("Cognizant", 25, 90, 25);
-        empWageBuilderArray.addCompany(" Capgemini", 18, 120, 20);
-        empWageBuilderArray.computeEmpWage();
-        System.out.println("Total Employee Wage of Capgemini is " +  empWageBuilderArray.getTotalWage("Capgemini"));
+        EmpWageBuilderGettingTotalWage empWageBuilder = new EmpWageBuilderGettingTotalWage();
+        empWageBuilder.addCompany("DMart", 20, 60, 25);
+        empWageBuilder.addCompany("Reliance", 22, 80, 35);
+        empWageBuilder.addCompany("Asus", 20, 48, 22);
+        empWageBuilder.addCompany("Tech Mahindra", 25, 80, 40);
+
+        empWageBuilder.computeEmpWage();
+
+        System.out.println(empWageBuilder.getTotalEmpWage("Asus"));
     }
+    //Constants
+
 }
