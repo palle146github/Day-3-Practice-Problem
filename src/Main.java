@@ -12,7 +12,7 @@ public class Main {
         int dayCount = 1;
         int workHours = 0;
         System.out.println( " ");
-        while ( dayCount <= WORKING_DAYS_MONTH && workHours <= WORKING_HOURS_MONTH){
+        while ( dayCount < WORKING_DAYS_MONTH && workHours <= WORKING_HOURS_MONTH){
             int empDailywage = 0 ;
             int isPresent = 0;
             isPresent = (int) ( Math.random() * 10 ) % 3;
